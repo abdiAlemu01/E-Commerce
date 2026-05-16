@@ -29,6 +29,7 @@ const Sidebar = () => {
   const adminLinks = [
     { to: '/admin', icon: FiHome, label: t('nav.dashboard') },
     { to: '/admin/products', icon: FiPackage, label: t('common.products') },
+    { to: '/admin/add-product', icon: FiPackage, label: 'Add Product' },
     { to: '/admin/orders', icon: FiShoppingBag, label: t('nav.orders') },
     { to: '/admin/customers', icon: FiUsers, label: t('nav.customers') },
     { to: '/admin/categories', icon: FiGrid, label: t('nav.categories') },
